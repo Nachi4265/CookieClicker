@@ -27,18 +27,19 @@
 
             
             <!--Cookie picture here and counter-->
-            <div class="ca"> 
+           <div class="ca"> 
                 
                 <div class="cookie counter">
-                    <div class="numbers">
-                        <div class="counter" on>0</div>
-                    </div>
+                    <p id="cookie-text">0</p>
+               
                 </div>
+            </div>  
 
-                <input type ="button" value="click" onclick="bakeCookie()"
-                 
-                
-            </div> 
+
+    <div class="spooky-cookie" onClick="bakeCookies()"><img src="skeleton.png" id="skeleton" /></div>
+
+
+            
              <!--Cookie picture here-->
 
 
@@ -67,11 +68,11 @@
                 <h2>Choose an upgrade!</h2>
 
                 <ul>
-                  <input type="button" class="up1" value="Double cookies  x2"/>
+                  <input type="button" class="up1"  onclick="double()"  value="Double cookies  x2"/>
             
-                  <input type="button" class="up2" value="Cookie Burst!  x5"/>
+                  <input type="button" class="up2" onclick="five()" value="Cookie Burst!  x5"/>
 
-                  <input type="button" class="up3" value="Cookie Craze!!!"/>
+                  <input type="button" class="up3" onclick="craze()" value="Cookie Craze!!!"/>
 
                 </ul>
             </div>
